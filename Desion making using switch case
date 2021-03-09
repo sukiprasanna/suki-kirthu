@@ -1,0 +1,43 @@
+
+#include<stdio.h>
+void main()
+{
+    printf("\n\n\t\t Menu Restratruant\n\n\n");
+    int choice, num, i;
+
+    while(i)
+    {
+        printf("1. IDLY \n");
+        printf("2. PIZZA\n");
+        printf("3. DOSA\n");
+        printf("4. MEALS\n\n\n");
+        printf(" 5.Thank you \n");
+        printf("Enter your choice :  ");
+        scanf("%d",&choice);
+        
+        switch(choice)
+        {
+            case 1:
+                printf("\n Food Item:Idly");
+                printf (" \n Amount is:₹ 60");
+                break;
+        
+            case 2:
+                printf("\n Food Item:Pizza");
+                printf (" \n Amount is:₹ 230");
+                break;
+            case 3:
+             printf("\n Food Item:Dosa");
+                printf (" \n Amount is:₹ 50");
+               break;
+            case 4:
+             printf("\n Food Item:Meals ");
+                printf (" \n Amount is:₹ 150);
+               break;
+        
+            case 5:
+                printf("\n\n\t\t\tCoding is Fun !\n\n\n");
+                }
+    printf("\n\n\t\t\tCoding is Fun !\n\n\n");
+    
+}
